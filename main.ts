@@ -84,10 +84,5 @@ leftDCDefault = 190
 rightDCDefault = 130
 SetPenUp()
 basic.pause(2000)
-goForwards(5)
-turnRight(90)
-goForwards(5)
-turnRight(90)
-goForwards(5)
-turnRight(90)
-goForwards(5)
+setPenDown()
+turnRight(360)
